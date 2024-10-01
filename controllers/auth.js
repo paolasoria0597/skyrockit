@@ -1,5 +1,5 @@
 const express = require('express');
-const router = express.Router();
+const router = express.Router(); // this router is the routing part of the express server.
 const bcrypt = require('bcrypt');
 
 const User = require('../models/user.js');
